@@ -1,0 +1,112 @@
+INSERT INTO Media (MediaID, Genre, Year, Title, Copies_in_Stock, Content_Rating, Checked_Out_Date, Return_Date)
+
+INSERT INTO Book (MediaID, Chapters_Sections)
+
+INSERT INTO Movies (MediaID, Aspect_Ratio)
+
+INSERT INTO Album (MediaID, Discs)
+
+
+INSERT INTO Director (DirectorID, FName, LName)
+VALUES ('nm0000001', 'Fred', 'Astaire'),
+VALUES ('nm0000002', 'Lauren', 'Bacall'),
+VALUES ('nm0000003', 'Brigitte', 'Bardot'),
+VALUES ('nm0000004', 'John', 'Belushi'),
+VALUES ('nm0000005', 'Ingmar', 'Bergman'),
+VALUES ('nm0000006', 'Ingrid', 'Bergman'),
+VALUES ('nm0000007', 'Humphrey', 'Bogart'),
+VALUES ('nm0000008', 'Marlon', 'Brando'),
+VALUES ('nm0000009', 'Richard', 'Burton'),
+VALUES ('nm0000010', 'James', 'Cagney'),
+VALUES ('nm0000011', 'Gary', 'Cooper'),
+VALUES ('nm0000012', 'Bette', 'Davis'),
+VALUES ('nm0000013', 'Doris', 'Day'),
+VALUES ('nm0000014', 'Olivia', 'de'),
+VALUES ('nm0000015', 'James', 'Dean'),
+VALUES ('nm0000016', 'Georges', 'Delerue'),
+VALUES ('nm0000017', 'Marlene', 'Dietrich'),
+VALUES ('nm0000018', 'Kirk', 'Douglas'),
+VALUES ('nm0000019', 'Federico', 'Fellini'),
+VALUES ('nm0000020', 'Henry', 'Fonda')
+
+
+INSERT INTO Actor (ActorID, Fname, LName)
+VALUES ('nm0000021', 'Joan', 'Fontaine'),
+VALUES ('nm0000022', 'Clark', 'Gable'),
+VALUES ('nm0000023', 'Judy', 'Garland'),
+VALUES ('nm0000024', 'John', 'Gielgud'),
+VALUES ('nm0000025', 'Jerry', 'Goldsmith'),
+VALUES ('nm0000026', 'Cary', 'Grant'),
+VALUES ('nm0000027', 'Alec', 'Guinness'),
+VALUES ('nm0000028', 'Rita', 'Hayworth'),
+VALUES ('nm0000029', 'Margaux', 'Hemingway'),
+VALUES ('nm0000030', 'Audrey', 'Hepburn'),
+VALUES ('nm0000031', 'Katharine', 'Hepburn'),
+VALUES ('nm0000032', 'Charlton', 'Heston'),
+VALUES ('nm0000033', 'Alfred', 'Hitchcock'),
+VALUES ('nm0000034', 'William', 'Holden'),
+VALUES ('nm0000035', 'James', 'Horner'),
+VALUES ('nm0000036', 'Buster', 'Keaton'),
+VALUES ('nm0000037', 'Gene', 'Kelly'),
+VALUES ('nm0000038', 'Grace', 'Kelly'),
+VALUES ('nm0000039', 'Deborah', 'Kerr'),
+VALUES ('nm0000040', 'Stanley', 'Kubrick'),
+VALUES ('nm0000041', 'Akira', 'Kurosawa')
+
+
+INSERT INTO Artist (ArtistID, Fname, LName, Genre)
+VALUES (‘ar0000001’, 'NULL', 'Accept', 'Rock'),
+VALUES (‘ar0000002’, 'NULL', 'Aerosmith', 'Rock'),
+VALUES (‘ar0000003’, 'Alanis’, ‘Morissette', 'Rock'),
+VALUES (‘ar0000004’, 'NULL', 'Alice In Chains', 'Rock'),
+VALUES (‘ar0000005’, 'Amy’, ‘Winehouse', 'R&B/Soul'),
+VALUES (‘ar0000006’, 'Antônio’, ‘Jobim', 'Jazz'),
+VALUES (‘ar0000007’, 'NULL', 'Apocalyptica', 'Metal'),
+VALUES ('ar0000008’, 'NULL', ’Nirvana, 'Rock'),
+VALUES ('ar0000009’, 'NULL', 'Audioslave', 'Alternative & Punk'),
+VALUES ('ar0000010, 'NULL', 'Black Label Society', 'Metal'),
+VALUES ('ar0000011’, 'Chico', 'Buarque', 'Latin'),
+VALUES ('ar0000012’, 'NULL', 'Chico Science & Nação Zumbi', 'Latin'),
+VALUES ('ar0000013’, 'Cláudio', 'Zoli', 'Latin'),
+VALUES ('ar0000014’, 'NULL', 'Deep Purple', 'Rock'),
+VALUES ('ar0000015’, 'NULL', 'Def Leppard', 'Rock'),
+VALUES ('ar0000016’, 'Ed', 'Motta', 'Latin'),
+VALUES ('ar0000017’, 'Eric', 'Clapton', 'Blues'),
+VALUES ('ar0000018’, 'NULL', 'Foo Fighters', 'Rock'),
+VALUES ('ar0000019, 'NULL', 'Frank Zappa & Captain Beefheart', 'Rock'),
+VALUES ('ar0000020', 'Gilberto', 'Gil', 'Soundtrack')
+
+
+INSERT INTO Track (TrackID, AlbumID, Title, Length, Genre)
+
+
+INSERT INTO Account (CardNum, Fees, OutDate, ReturnDate, Quantity)
+VALUES ('ac0000001, '$8.89', '4'),
+VALUES ('ac0000002’, '$3.21', '1'),
+VALUES ('ac0000003’, '$17.04', '4'),
+VALUES ('ac0000004, '$2.93', '5'),
+VALUES ('ac0000005’, '$19.14', '3'),
+VALUES ('ac0000006’, '$9.54', '5'),
+VALUES ('ac0000007’, '$4.77', '1'),
+VALUES ('ac0000008’, '$14.03', '2'),
+VALUES ('ac0000009’, '$15.11', '2'),
+VALUES ('ac0000010’, '$16.89', '4'),
+VALUES ('ac0000011', '$18.34',  '3'),
+VALUES ('ac0000012’, '$7.57', '2'),
+VALUES ('ac0000013’, '$18.96', '5'),
+VALUES ('ac0000014’, '$2.92', '1'),
+VALUES ('ac0000015’, '$18.69', '0'),
+VALUES ('ac0000016’, '$9.83', '3'),
+VALUES ('ac0000017’, '$19.22', '1'),
+VALUES ('ac0000018’, '$3.6', '3'),
+VALUES ('ac0000019, '$5.52', '0'),
+VALUES ('ac0000020’, '$15.06', '3')
+
+
+INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street)
+
+INSERT INTO Author (AuthorID, Fname, LName)
+
+INSERT INTO Person (CardNum, Fname, Lname, State, City, Street, Email)
+
+INSERT INTO CheckedOutItem (MediaID, Type, OutDate, ReturnDate, Quantity)
