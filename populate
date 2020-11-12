@@ -1,48 +1,49 @@
 
-INSERT INTO Media (MediaID, Genre, Year, Title, Copies_in_Stock, Content_Rating)
-VALUES ('b027689179', 'Horror', '1994', 'To Kill a Mockingbird', 5, NULL),
-VALUES ('b093749757', 'Teen', '2008', 'The Hunger Games', 6, Null),
-VALUES ('b029453860', 'Fiction', '2013', '1984', 11, NULL),
-VALUES ('b058335061', 'Classics', '2002', 'East of Eden', 34, NULL),
-VALUES ('b059257381', 'Fantasy', '2003', 'Harry Potter and the Sorcerer's Stone', 61, NULL),
-VALUES ('b065148571', 'Classics', '1996', 'Animal Farm', 12, NULL),
-VALUES ('b083832035', 'Fiction', '2004', 'The Kite Runner'),
-VALUES ('b073482355', 'Fantasy', '2007', 'Harry Potter and the Deathly Hallows', 65, NULL),
-VALUES ('b03653107', 'Fantasy', '2004', 'Harry Potter and the Prisoner of Azkaban', 23, NULL),
-VALUES ('b01310869', 'Science Fiction', '2011', 'Ready Player One', 43, NULL),
-VALUES ('b079835238', 'Historical Fiction', '2006', 'The Book Thief', 32, NULL),
-VALUES ('b020928429', 'Fantasy', '2007', 'The Name of the Wind', 17, NULL),
-VALUES ('b077885574', 'Horror', '1990', 'The Stand', 89, NULL),
-VALUES ('b01628973', 'Science Fiction', '2004', 'Ender\'s Game', 64, NULL),
-VALUES ('b054300975', 'Young Adult', '2006', 'The Giver', 23, NULL),
-VALUES ('b034879836', 'Epic poetry', '1488', 'The Odyssey', 79, NULL),
-VALUES ('b039188650', 'Fantasy', '1937', 'The Hobbit', 8, NULL),
-VALUES ('b047942122', 'Fantasy', '2004', 'Harry Potter and the Order of the Phoenix', 53, NULL),
-VALUES ('b028965817', 'Fiction', '2006', 'A Tree Grows in Brooklyn', 81, NULL),
-VALUES ('b062251236', 'Historical Fiction', '2002', 'The Pillars of the Earth', 42, NULL),
-INSERT INTO CheckedOutItem (MediaID, Type, OutDate, ReturnDate)
+INSERT INTO Media (MediaID, Genre, Year, Title, Copies_in_Stock, Content_Rating) VALUES
+ ('b027689179', 'Horror', '1994', 'To Kill a Mockingbird', 5, NULL),
+ ('b093749757', 'Teen', '2008', 'The Hunger Games', 6, Null),
+ ('b029453860', 'Fiction', '2013', '1984', 11, NULL),
+ ('b058335061', 'Classics', '2002', 'East of Eden', 34, NULL),
+ ('b059257381', 'Fantasy', '2003', 'Harry Potter and the Sorcerer''s Stone', 61, NULL),
+ ('b065148571', 'Classics', '1996', 'Animal Farm', 12, NULL),
+ ('b083832035', 'Fiction', '2004', 'The Kite Runner'),
+ ('b073482355', 'Fantasy', '2007', 'Harry Potter and the Deathly Hallows', 65, NULL),
+ ('b03653107', 'Fantasy', '2004', 'Harry Potter and the Prisoner of Azkaban', 23, NULL),
+ ('b01310869', 'Science Fiction', '2011', 'Ready Player One', 43, NULL),
+ ('b079835238', 'Historical Fiction', '2006', 'The Book Thief', 32, NULL),
+ ('b020928429', 'Fantasy', '2007', 'The Name of the Wind', 17, NULL),
+ ('b077885574', 'Horror', '1990', 'The Stand', 89, NULL),
+ ('b01628973', 'Science Fiction', '2004', 'Ender''s Game', 64, NULL),
+ ('b054300975', 'Young Adult', '2006', 'The Giver', 23, NULL),
+ ('b034879836', 'Epic poetry', '1488', 'The Odyssey', 79, NULL),
+ ('b039188650', 'Fantasy', '1937', 'The Hobbit', 8, NULL),
+ ('b047942122', 'Fantasy', '2004', 'Harry Potter and the Order of the Phoenix', 53, NULL),
+ ('b028965817', 'Fiction', '2006', 'A Tree Grows in Brooklyn', 81, NULL),
+ ('b062251236', 'Historical Fiction', '2002', 'The Pillars of the Earth', 42, NULL);
+ 
+INSERT INTO CheckedOutItem (MediaID, Type, OutDate, ReturnDate);
 
 INSERT INTO Account (CardNum, Fees, Quantity) VALUES
  ('cn0000001', 8.89, 4),
- ('cn0000002’, 3.21, 1),
- ('cn0000003’, 17.04, 4),
+ ('cn0000002', 3.21, 1),
+ ('cn0000003', 17.04, 4),
  ('cn0000004', 2.93, 5),
- ('cn0000005’, 19.14, 3),
- ('cn0000006’, 9.54, 5),
- ('cn0000007’, 4.77, 1),
- ('cn0000008’, 14.03, 2),
- ('cn0000009’, 15.11, 2),
- ('cn0000010’, '16.89, 4),
+ ('cn0000005', 19.14, 3),
+ ('cn0000006', 9.54, 5),
+ ('cn0000007', 4.77, 1),
+ ('cn0000008', 14.03, 2),
+ ('cn0000009', 15.11, 2),
+ ('cn0000010', 16.89, 4),
  ('cn0000011', 18.34, 3),
- ('cn0000012’, 7.57, 2),
- ('cn0000013’, 18.96, 5),
- ('cn0000014’, 2.92, 1),
- ('cn0000015’, 18.69, 0),
- ('cn0000016’, 9.83, 3),
- ('cn0000017’, 19.22, 1),
- ('cn0000018’, 3.6, 3),
+ ('cn0000012', 7.57, 2),
+ ('cn0000013', 18.96, 5),
+ ('cn0000014', 2.92, 1),
+ ('cn0000015', 18.69, 0),
+ ('cn0000016', 9.83, 3),
+ ('cn0000017', 19.22, 1),
+ ('cn0000018', 3.6, 3),
  ('cn0000019', 5.52, 0),
- ('cn0000020’, 757,231,678.06, 842);
+ ('cn0000020', 757231678.06, 842);
 
 INSERT INTO Person (CardNum, Fname, Lname, State, City, Street, Email) VALUES
  ('cn0000001', 'James', 'Butt', 'LA', 'New Orleans', '6649 N Blue Gum St', 'jbutt@gmail.com'),
@@ -63,35 +64,35 @@ INSERT INTO Person (CardNum, Fname, Lname, State, City, Street, Email) VALUES
  ('cn0000016', 'Mattie', 'Poquette', 'AZ', 'Phoenix', '73 State Road 434 E', 'mattie@aol.com'),
  ('cn0000017', 'Meaghan', 'Garufi', 'TN', 'Mc Minnville', '69734 E Carrillo St', 'meaghan@hotmail.com'),
  ('cn0000018', 'Gladys', 'Rim', 'WI', 'Milwaukee', '322 New Horizon Blvd', 'gladys.rim@rim.org'),
- ('cn0000019', 'Yuki', 'Whobrey', 'MI', 'Taylor', '1 State Route 27', 'yuki_whobrey@aol.com')
+ ('cn0000019', 'Yuki', 'Whobrey', 'MI', 'Taylor', '1 State Route 27', 'yuki_whobrey@aol.com'),
  ('cn0000020', 'Leon', 'Madrid', 'OH', 'Columbus', '154 N Oval Mall', 'madrid.1@osu.edu');
 
 
 INSERT INTO Book (MediaID, Chapters_Sections) VALUES
-VALUES ('b-27689179', '4'),
-VALUES ('b-93749757', '9'),
-VALUES ('b-29453860', '7'),
-VALUES ('b-58335061', '10'),
-VALUES ('b-59257381', '6'),
-VALUES ('b-65148571', '4'),
-VALUES ('b-83832035', '8'),
-VALUES ('b-73482355', '1'),
-VALUES ('b-3653107', '6'),
-VALUES ('b-1310869', '9'),
-VALUES ('b-79835238', '7'),
-VALUES ('b-20928429', '8'),
-VALUES ('b-77885574', '6'),
-VALUES ('b-1628973', '1'),
-VALUES ('b-54300975', '1'),
-VALUES ('b-34879836', '7'),
-VALUES ('b-39188650', '9'),
-VALUES ('b-47942122', '6'),
-VALUES ('b-28965817', '9'),
-VALUES ('b-62251236', '4'),
+ ('b-27689179', '4'),
+ ('b-93749757', '9'),
+ ('b-29453860', '7'),
+ ('b-58335061', '10'),
+ ('b-59257381', '6'),
+ ('b-65148571', '4'),
+ ('b-83832035', '8'),
+ ('b-73482355', '1'),
+ ('b-3653107', '6'),
+ ('b-1310869', '9'),
+ ('b-79835238', '7'),
+ ('b-20928429', '8'),
+ ('b-77885574', '6'),
+ ('b-1628973', '1'),
+ ('b-54300975', '1'),
+ ('b-34879836', '7'),
+ ('b-39188650', '9'),
+ ('b-47942122', '6'),
+ ('b-28965817', '9'),
+ ('b-62251236', '4');
 
-INSERT INTO Author (AuthorID, Fname, LName) VALUES
+INSERT INTO Author (AuthorID, Fname, LName);
 
-INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street)
+INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street) VALUES
  ('pb0000001', 'Books Publishing, Inc', 'USA', 'Florida', 'Tampa', '1814  Saints Alley'),
  ('pb0000002', 'I love books, LLC', 'USA', 'New York', 'PLAQUEMINE', '466  Goodwin Avenue'),
  ('pb0000003', 'ITs a ME-BOOKHOUSE, llc', 'USA', 'New York', 'New York', '130  Lady Bug Drive'),
@@ -104,36 +105,36 @@ INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street)
  ('pb0000010', 'Music and Movies Publishing, Inc', 'USA', 'Nevada', 'LAS VEGAS', '4975  Retreat Avenue');
 
 
-INSERT INTO Track (TrackID, AlbumID, ArtistID, Title, Length, Genre) VALUES
+INSERT INTO Track (TrackID, AlbumID, ArtistID, Title, Length, Genre);
 
-INSERT INTO Album (MediaID, Discs) VALUES
+INSERT INTO Album (MediaID, Discs);
 
 INSERT INTO Artist (ArtistID, Fname, LName, Genre) VALUES
- (‘ar0000001’, NULL, 'Accept', 'Rock'),
- (‘ar0000002’, NULL, 'Aerosmith', 'Rock'),
- (‘ar0000003’, 'Alanis’, ‘Morissette', 'Rock'),
- (‘ar0000004’, NULL, 'Alice In Chains', 'Rock'),
- (‘ar0000005’, 'Amy’, ‘Winehouse', 'R&B/Soul'),
- (‘ar0000006’, 'Antônio’, ‘Jobim', 'Jazz'),
- (‘ar0000007’, NULL, 'Apocalyptica', 'Metal'),
- ('ar0000008’, NULL, ’Nirvana, 'Rock'),
- ('ar0000009’, NULL, 'Audioslave', 'Alternative & Punk'),
- ('ar0000010, NULL, 'Black Label Society', 'Metal'),
- ('ar0000011’, 'Chico', 'Buarque', 'Latin'),
- ('ar0000012’, NULL, 'Chico Science & Nação Zumbi', 'Latin'),
- ('ar0000013’, 'Cláudio', 'Zoli', 'Latin'),
- ('ar0000014’, NULL, 'Deep Purple', 'Rock'),
- ('ar0000015’, NULL, 'Def Leppard', 'Rock'),
- ('ar0000016’, 'Ed', 'Motta', 'Latin'),
- ('ar0000017’, 'Eric', 'Clapton', 'Blues'),
- ('ar0000018’, NULL, 'Foo Fighters', 'Rock'),
- ('ar0000019, NULL, 'Frank Zappa & Captain Beefheart', 'Rock'),
+ ('ar0000001', NULL, 'Accept', 'Rock'),
+ ('ar0000002', NULL, 'Aerosmith', 'Rock'),
+ ('ar0000003', 'Alanis’, ‘Morissette', 'Rock'),
+ ('ar0000004', NULL, 'Alice In Chains', 'Rock'),
+ ('ar0000005', 'Amy’, ‘Winehouse', 'R&B/Soul'),
+ ('ar0000006', 'Antônio’, ‘Jobim', 'Jazz'),
+ ('ar0000007', NULL, 'Apocalyptica', 'Metal'),
+ ('ar0000008', NULL, ’Nirvana, 'Rock'),
+ ('ar0000009', NULL, 'Audioslave', 'Alternative & Punk'),
+ ('ar0000010', NULL, 'Black Label Society', 'Metal'),
+ ('ar0000011', 'Chico', 'Buarque', 'Latin'),
+ ('ar0000012', NULL, 'Chico Science & Nação Zumbi', 'Latin'),
+ ('ar0000013', 'Cláudio', 'Zoli', 'Latin'),
+ ('ar0000014', NULL, 'Deep Purple', 'Rock'),
+ ('ar0000015', NULL, 'Def Leppard', 'Rock'),
+ ('ar0000016', 'Ed', 'Motta', 'Latin'),
+ ('ar0000017', 'Eric', 'Clapton', 'Blues'),
+ ('ar0000018', NULL, 'Foo Fighters', 'Rock'),
+ ('ar0000019', NULL, 'Frank Zappa & Captain Beefheart', 'Rock'),
  ('ar0000020', 'Gilberto', 'Gil', 'Soundtrack');
 
 INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street) VALUES
  ('pb0000011', 'Music or Movies Publishing, Inc', 'USA', 'Virginia', 'Fairfax', '1360  Daffodil Lane'),
  ('pb0000012', 'Music XOR Movies Publishing, Inc', 'USA', 'California', 'San Diego', '946  Ocello Street'),
- ('pb0000013', 'Music not movies Publishing, Inc', 'USA', 'Florida', 'Middletown', '1153  Copperhead Road),
+ ('pb0000013', 'Music not movies Publishing, Inc', 'USA', 'Florida', 'Middletown', '1153  Copperhead Road'),
  ('pb0000014', 'Whatever dude publish house', 'USA', 'Texas', 'Tampa', '4998  Bird Spring Lane'),
  ('pb0000015', 'I''ve given up', 'USA', 'Connecticut', 'CASCILLA', '3100  Pin Oak Drive'),
  ('pb0000016', 'Who can say no', 'USA', 'Mississippi', 'Middletown', '4551  Badger Pond Lane'),
@@ -143,7 +144,7 @@ INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street) VALUES
  ('pb0000020', 'Self Publish', 'USA', 'Connecticut', 'Elk River', '205  Freshour Circle');
 
 
-INSERT INTO Movies (MediaID, Aspect_Ratio) VALUES
+INSERT INTO Movies (MediaID, Aspect_Ratio);
 
 INSERT INTO Director (DirectorID, FName, LName) VALUES
  ('nm0000001', 'Fred', 'Astaire'),
@@ -165,7 +166,7 @@ INSERT INTO Director (DirectorID, FName, LName) VALUES
  ('nm0000017', 'Marlene', 'Dietrich'),
  ('nm0000018', 'Kirk', 'Douglas'),
  ('nm0000019', 'Federico', 'Fellini'),
- ('nm0000020', 'Henry', 'Fonda')
+ ('nm0000020', 'Henry', 'Fonda');
 
 INSERT INTO Actor (ActorID, Fname, LName) VALUES
  ('nm0000021', 'Joan', 'Fontaine'),
