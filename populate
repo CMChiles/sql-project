@@ -128,8 +128,7 @@ INSERT INTO Track (TrackID, AlbumID, ArtistID, Title, Length, Genre) VALUES
  ('tk00000020', 'ab00000020', ‘ar00000019’, 'Like A Virgin', 4.37, 'Pop');
  ('tk00000014', 'ab00000014', ‘ar00000020’, 'Thriller', 5.21, 'Pop'),
 
-INSERT INTO Album (MediaID, Discs);
-
+INSERT INTO Album (MediaID, Discs) VALUES
  ('ar0000001', NULL, 'Accept', 'Rock'),
  ('ar0000002', NULL, 'Aerosmith', 'Rock'),
  ('ar0000003', 'Alanis’, ‘Morissette', 'Rock'),
