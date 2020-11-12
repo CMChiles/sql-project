@@ -87,48 +87,68 @@ VALUES ('b-34879836', '7'),
 VALUES ('b-39188650', '9'),
 VALUES ('b-47942122', '6'),
 VALUES ('b-28965817', '9'),
-VALUES ('b-62251236', '4'),
+VALUES ('b-62251236', '4');
 
 INSERT INTO Author (AuthorID, Fname, LName) VALUES
 
 INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street)
- ('pb0000001', 'Books Publishing, Inc', 'USA', 'Florida', 'Tampa', '1814  Saints Alley'),
- ('pb0000002', 'I love books, LLC', 'USA', 'New York', 'PLAQUEMINE', '466  Goodwin Avenue'),
- ('pb0000003', 'ITs a ME-BOOKHOUSE, llc', 'USA', 'New York', 'New York', '130  Lady Bug Drive'),
- ('pb0000004', 'I am the books', 'USA', 'Texas', 'Dallas', '3889  Liberty Street'),
- ('pb0000005', 'Music for the Masses, Inc', 'USA', 'Maine', 'Westbrook', '637  Bloomfield Way'),
- ('pb0000006', 'Do you love music, llc', 'USA', 'Kentucky', 'OLIVE HILL', '3516  Wright Court'),
- ('pb0000007', 'How does one name more', 'USA', 'Indiana', 'Fort Wayne', '3516  Wright Court'),
- ('pb0000008', 'Music Publishing, Inc', 'USA', 'Ohio', 'KALIDA', '4481  Carolina Avenue'),
- ('pb0000009', 'Movies Publishing, Inc', 'USA', 'Louisiana', 'Baton Rouge', '3282  Washburn Street'),
- ('pb0000010', 'Music and Movies Publishing, Inc', 'USA', 'Nevada', 'LAS VEGAS', '4975  Retreat Avenue');
+VALUES ('pb0000001', 'Books Publishing, Inc', 'USA', 'Florida', 'Tampa', '1814  Saints Alley'),
+VALUES ('pb0000002', 'I love books, LLC', 'USA', 'New York', 'PLAQUEMINE', '466  Goodwin Avenue'),
+VALUES ('pb0000003', 'ITs a ME-BOOKHOUSE, llc', 'USA', 'New York', 'New York', '130  Lady Bug Drive'),
+VALUES ('pb0000004', 'I am the books', 'USA', 'Texas', 'Dallas', '3889  Liberty Street'),
+VALUES ('pb0000005', 'Music for the Masses, Inc', 'USA', 'Maine', 'Westbrook', '637  Bloomfield Way'),
+VALUES ('pb0000006', 'Do you love music, llc', 'USA', 'Kentucky', 'OLIVE HILL', '3516  Wright Court'),
+VALUES ('pb0000007', 'How does one name more', 'USA', 'Indiana', 'Fort Wayne', '3516  Wright Court'),
+VALUES ('pb0000008', 'Music Publishing, Inc', 'USA', 'Ohio', 'KALIDA', '4481  Carolina Avenue'),
+VALUES ('pb0000009', 'Movies Publishing, Inc', 'USA', 'Louisiana', 'Baton Rouge', '3282  Washburn Street'),
+VALUES ('pb0000010', 'Music and Movies Publishing, Inc', 'USA', 'Nevada', 'LAS VEGAS', '4975  Retreat Avenue');
 
 
 INSERT INTO Track (TrackID, AlbumID, ArtistID, Title, Length, Genre) VALUES
+VALUES ('tk00000001', 'ab00000001', ‘ar00000001’, ),
+VALUES ('tk00000002', 'ab00000002', ‘ar00000002’, ),
+VALUES ('tk00000003', 'ab00000003', ‘ar00000003’, ),
+VALUES ('tk00000004', 'ab00000004', ‘ar00000004’, ),
+VALUES ('tk00000005', 'ab00000005', ‘ar00000005’, ),
+VALUES ('tk00000006', 'ab00000006', ‘ar00000006’, ),
+VALUES ('tk00000007', 'ab00000007', ‘ar00000007’, ),
+VALUES ('tk00000008', 'ab00000008', ‘ar00000008’, ),
+VALUES ('tk00000009', 'ab00000009', ‘ar00000009’, ),
+VALUES ('tk00000010', 'ab00000010', ‘ar00000010’, );
+VALUES ('tk00000011', 'ab00000011', ‘ar00000011’, ),
+VALUES ('tk00000012', 'ab00000012', ‘ar00000012’, ),
+VALUES ('tk00000013', 'ab00000013', ‘ar00000013’, ),
+VALUES ('tk00000015', 'ab00000015', ‘ar00000014’, ),
+VALUES ('tk00000016', 'ab00000016', ‘ar00000015’, ),
+VALUES ('tk00000017', 'ab00000017', ‘ar00000016’, ),
+VALUES ('tk00000018', 'ab00000018', ‘ar00000017’, ),
+VALUES ('tk00000019', 'ab00000019', ‘ar00000018’, ),
+VALUES ('tk00000020', 'ab00000020', ‘ar00000019’, );
+VALUES ('tk00000014', 'ab00000014', ‘ar00000020’, ),
 
 INSERT INTO Album (MediaID, Discs) VALUES
 
 INSERT INTO Artist (ArtistID, Fname, LName, Genre) VALUES
- (‘ar0000001’, NULL, 'Accept', 'Rock'),
- (‘ar0000002’, NULL, 'Aerosmith', 'Rock'),
- (‘ar0000003’, 'Alanis’, ‘Morissette', 'Rock'),
- (‘ar0000004’, NULL, 'Alice In Chains', 'Rock'),
- (‘ar0000005’, 'Amy’, ‘Winehouse', 'R&B/Soul'),
- (‘ar0000006’, 'Antônio’, ‘Jobim', 'Jazz'),
- (‘ar0000007’, NULL, 'Apocalyptica', 'Metal'),
- ('ar0000008’, NULL, ’Nirvana, 'Rock'),
- ('ar0000009’, NULL, 'Audioslave', 'Alternative & Punk'),
- ('ar0000010, NULL, 'Black Label Society', 'Metal'),
- ('ar0000011’, 'Chico', 'Buarque', 'Latin'),
- ('ar0000012’, NULL, 'Chico Science & Nação Zumbi', 'Latin'),
- ('ar0000013’, 'Cláudio', 'Zoli', 'Latin'),
- ('ar0000014’, NULL, 'Deep Purple', 'Rock'),
- ('ar0000015’, NULL, 'Def Leppard', 'Rock'),
- ('ar0000016’, 'Ed', 'Motta', 'Latin'),
- ('ar0000017’, 'Eric', 'Clapton', 'Blues'),
- ('ar0000018’, NULL, 'Foo Fighters', 'Rock'),
- ('ar0000019, NULL, 'Frank Zappa & Captain Beefheart', 'Rock'),
- ('ar0000020', 'Gilberto', 'Gil', 'Soundtrack');
+ (‘ar00000001’, NULL, 'Accept', 'Rock'),
+ (‘ar00000002’, NULL, 'Aerosmith', 'Rock'),
+ (‘ar00000003’, 'Alanis’, ‘Morissette', 'Rock'),
+ (‘ar00000004’, NULL, 'Alice In Chains', 'Rock'),
+ (‘ar00000005’, 'Amy’, ‘Winehouse', 'R&B/Soul'),
+ (‘ar00000006’, 'Antônio’, ‘Jobim', 'Jazz'),
+ (‘ar00000007’, NULL, 'Apocalyptica', 'Metal'),
+ ('ar00000008’, NULL, ’Nirvana, 'Rock'),
+ ('ar00000009’, NULL, 'Audioslave', 'Alternative & Punk'),
+ ('ar00000010, NULL, 'Black Label Society', 'Metal'),
+ ('ar00000011’, 'Chico', 'Buarque', 'Latin'),
+ ('ar00000012’, NULL, 'Chico Science & Nação Zumbi', 'Latin'),
+ ('ar00000013’, 'Cláudio', 'Zoli', 'Latin'),
+ ('ar00000014’, NULL, 'Deep Purple', 'Rock'),
+ ('ar00000015’, NULL, 'Def Leppard', 'Rock'),
+ ('ar00000016’, 'Ed', 'Motta', 'Latin'),
+ ('ar00000017’, 'Eric', 'Clapton', 'Blues'),
+ ('ar00000018’, NULL, 'Foo Fighters', 'Rock'),
+ ('ar00000019, NULL, 'Frank Zappa & Captain Beefheart', 'Rock'),
+ ('ar00000020', 'Gilberto', 'Gil', 'Soundtrack');
 
 INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street) VALUES
  ('pb0000011', 'Music or Movies Publishing, Inc', 'USA', 'Virginia', 'Fairfax', '1360  Daffodil Lane'),
