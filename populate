@@ -1,85 +1,11 @@
 INSERT INTO Media (MediaID, Genre, Year, Title, Copies_in_Stock, Content_Rating, Checked_Out_Date, Return_Date)
-
 INSERT INTO CheckedOutItem (MediaID, Type, OutDate, ReturnDate, Quantity)
 
-INSERT INTO Book (MediaID, Chapters_Sections)
-
-INSERT INTO Movies (MediaID, Aspect_Ratio)
-
-INSERT INTO Album (MediaID, Discs)
-
-INSERT INTO Track (TrackID, AlbumID, ArtistID, Title, Length, Genre)
-
-INSERT INTO Director (DirectorID, FName, LName)
-VALUES ('nm0000001', 'Fred', 'Astaire'),
-VALUES ('nm0000002', 'Lauren', 'Bacall'),
-VALUES ('nm0000003', 'Brigitte', 'Bardot'),
-VALUES ('nm0000004', 'John', 'Belushi'),
-VALUES ('nm0000005', 'Ingmar', 'Bergman'),
-VALUES ('nm0000006', 'Ingrid', 'Bergman'),
-VALUES ('nm0000007', 'Humphrey', 'Bogart'),
-VALUES ('nm0000008', 'Marlon', 'Brando'),
-VALUES ('nm0000009', 'Richard', 'Burton'),
-VALUES ('nm0000010', 'James', 'Cagney'),
-VALUES ('nm0000011', 'Gary', 'Cooper'),
-VALUES ('nm0000012', 'Bette', 'Davis'),
-VALUES ('nm0000013', 'Doris', 'Day'),
-VALUES ('nm0000014', 'Olivia', 'de'),
-VALUES ('nm0000015', 'James', 'Dean'),
-VALUES ('nm0000016', 'Georges', 'Delerue'),
-VALUES ('nm0000017', 'Marlene', 'Dietrich'),
-VALUES ('nm0000018', 'Kirk', 'Douglas'),
-VALUES ('nm0000019', 'Federico', 'Fellini'),
-VALUES ('nm0000020', 'Henry', 'Fonda')
 
 
-INSERT INTO Actor (ActorID, Fname, LName)
-VALUES ('nm0000021', 'Joan', 'Fontaine'),
-VALUES ('nm0000022', 'Clark', 'Gable'),
-VALUES ('nm0000023', 'Judy', 'Garland'),
-VALUES ('nm0000024', 'John', 'Gielgud'),
-VALUES ('nm0000025', 'Jerry', 'Goldsmith'),
-VALUES ('nm0000026', 'Cary', 'Grant'),
-VALUES ('nm0000027', 'Alec', 'Guinness'),
-VALUES ('nm0000028', 'Rita', 'Hayworth'),
-VALUES ('nm0000029', 'Margaux', 'Hemingway'),
-VALUES ('nm0000030', 'Audrey', 'Hepburn'),
-VALUES ('nm0000031', 'Katharine', 'Hepburn'),
-VALUES ('nm0000032', 'Charlton', 'Heston'),
-VALUES ('nm0000033', 'Alfred', 'Hitchcock'),
-VALUES ('nm0000034', 'William', 'Holden'),
-VALUES ('nm0000035', 'James', 'Horner'),
-VALUES ('nm0000036', 'Buster', 'Keaton'),
-VALUES ('nm0000037', 'Gene', 'Kelly'),
-VALUES ('nm0000038', 'Grace', 'Kelly'),
-VALUES ('nm0000039', 'Deborah', 'Kerr'),
-VALUES ('nm0000040', 'Stanley', 'Kubrick'),
-VALUES ('nm0000041', 'Akira', 'Kurosawa')
 
-
-INSERT INTO Artist (ArtistID, Fname, LName, Genre)
-VALUES (‘ar0000001’, 'NULL', 'Accept', 'Rock'),
-VALUES (‘ar0000002’, 'NULL', 'Aerosmith', 'Rock'),
-VALUES (‘ar0000003’, 'Alanis’, ‘Morissette', 'Rock'),
-VALUES (‘ar0000004’, 'NULL', 'Alice In Chains', 'Rock'),
-VALUES (‘ar0000005’, 'Amy’, ‘Winehouse', 'R&B/Soul'),
-VALUES (‘ar0000006’, 'Antônio’, ‘Jobim', 'Jazz'),
-VALUES (‘ar0000007’, 'NULL', 'Apocalyptica', 'Metal'),
-VALUES ('ar0000008’, 'NULL', ’Nirvana, 'Rock'),
-VALUES ('ar0000009’, 'NULL', 'Audioslave', 'Alternative & Punk'),
-VALUES ('ar0000010, 'NULL', 'Black Label Society', 'Metal'),
-VALUES ('ar0000011’, 'Chico', 'Buarque', 'Latin'),
-VALUES ('ar0000012’, 'NULL', 'Chico Science & Nação Zumbi', 'Latin'),
-VALUES ('ar0000013’, 'Cláudio', 'Zoli', 'Latin'),
-VALUES ('ar0000014’, 'NULL', 'Deep Purple', 'Rock'),
-VALUES ('ar0000015’, 'NULL', 'Def Leppard', 'Rock'),
-VALUES ('ar0000016’, 'Ed', 'Motta', 'Latin'),
-VALUES ('ar0000017’, 'Eric', 'Clapton', 'Blues'),
-VALUES ('ar0000018’, 'NULL', 'Foo Fighters', 'Rock'),
-VALUES ('ar0000019, 'NULL', 'Frank Zappa & Captain Beefheart', 'Rock'),
-VALUES ('ar0000020', 'Gilberto', 'Gil', 'Soundtrack')
-
-
+############################################################################################################################
+############################################################################################################################
 INSERT INTO Account (CardNum, Fees, Quantity)
 VALUES ('cn0000001, '$8.89', '4'),
 VALUES ('cn0000002’, '$3.21', '1'),
@@ -126,6 +52,10 @@ VALUES ('cn0000020', 'Leon', 'Madrid', 'OH', 'Columbus', '154 N Oval Mall', 'mad
 
 
 
+
+
+INSERT INTO Book (MediaID, Chapters_Sections)
+INSERT INTO Author (AuthorID, Fname, LName)
 INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street)
 VALUES ('0000000001', 'Books Publishing, Inc', 'USA', 'Florida', 'Tampa', '1814  Saints Alley'),
 VALUES ('0000000002', 'I love books, LLC', 'USA', 'New York', 'PLAQUEMINE', '466  Goodwin Avenue'),
@@ -146,7 +76,76 @@ VALUES ('0000000016', 'Who can say no', 'USA', 'Mississippi', 'Middletown', '455
 VALUES ('0000000017', 'Time for movies', 'USA', 'Connecticut', 'Tampa', '3137  Yorkie Lane'),
 VALUES ('0000000018', 'Self Publish', 'USA', 'Maryland', 'CASCILLA', '4297  White River Way'),
 VALUES ('0000000019', 'Self Publish', 'USA', 'Florida', 'Middletown', '2533  Charack Road'),
-VALUES ('0000000020', 'Self Publish', 'USA', 'Connecticut', 'Elk River', '205  Freshour Circle'),
+VALUES ('0000000020', 'Self Publish', 'USA', 'Connecticut', 'Elk River', '205  Freshour Circle')
+INSERT INTO Album (MediaID, Discs)
+INSERT INTO Track (TrackID, AlbumID, ArtistID, Title, Length, Genre)
+INSERT INTO Artist (ArtistID, Fname, LName, Genre)
+VALUES (‘ar0000001’, 'NULL', 'Accept', 'Rock'),
+VALUES (‘ar0000002’, 'NULL', 'Aerosmith', 'Rock'),
+VALUES (‘ar0000003’, 'Alanis’, ‘Morissette', 'Rock'),
+VALUES (‘ar0000004’, 'NULL', 'Alice In Chains', 'Rock'),
+VALUES (‘ar0000005’, 'Amy’, ‘Winehouse', 'R&B/Soul'),
+VALUES (‘ar0000006’, 'Antônio’, ‘Jobim', 'Jazz'),
+VALUES (‘ar0000007’, 'NULL', 'Apocalyptica', 'Metal'),
+VALUES ('ar0000008’, 'NULL', ’Nirvana, 'Rock'),
+VALUES ('ar0000009’, 'NULL', 'Audioslave', 'Alternative & Punk'),
+VALUES ('ar0000010, 'NULL', 'Black Label Society', 'Metal'),
+VALUES ('ar0000011’, 'Chico', 'Buarque', 'Latin'),
+VALUES ('ar0000012’, 'NULL', 'Chico Science & Nação Zumbi', 'Latin'),
+VALUES ('ar0000013’, 'Cláudio', 'Zoli', 'Latin'),
+VALUES ('ar0000014’, 'NULL', 'Deep Purple', 'Rock'),
+VALUES ('ar0000015’, 'NULL', 'Def Leppard', 'Rock'),
+VALUES ('ar0000016’, 'Ed', 'Motta', 'Latin'),
+VALUES ('ar0000017’, 'Eric', 'Clapton', 'Blues'),
+VALUES ('ar0000018’, 'NULL', 'Foo Fighters', 'Rock'),
+VALUES ('ar0000019, 'NULL', 'Frank Zappa & Captain Beefheart', 'Rock'),
+VALUES ('ar0000020', 'Gilberto', 'Gil', 'Soundtrack')
 
-INSERT INTO Author (AuthorID, Fname, LName)
 
+
+
+
+INSERT INTO Movies (MediaID, Aspect_Ratio)
+INSERT INTO Director (DirectorID, FName, LName)
+VALUES ('nm0000001', 'Fred', 'Astaire'),
+VALUES ('nm0000002', 'Lauren', 'Bacall'),
+VALUES ('nm0000003', 'Brigitte', 'Bardot'),
+VALUES ('nm0000004', 'John', 'Belushi'),
+VALUES ('nm0000005', 'Ingmar', 'Bergman'),
+VALUES ('nm0000006', 'Ingrid', 'Bergman'),
+VALUES ('nm0000007', 'Humphrey', 'Bogart'),
+VALUES ('nm0000008', 'Marlon', 'Brando'),
+VALUES ('nm0000009', 'Richard', 'Burton'),
+VALUES ('nm0000010', 'James', 'Cagney'),
+VALUES ('nm0000011', 'Gary', 'Cooper'),
+VALUES ('nm0000012', 'Bette', 'Davis'),
+VALUES ('nm0000013', 'Doris', 'Day'),
+VALUES ('nm0000014', 'Olivia', 'de'),
+VALUES ('nm0000015', 'James', 'Dean'),
+VALUES ('nm0000016', 'Georges', 'Delerue'),
+VALUES ('nm0000017', 'Marlene', 'Dietrich'),
+VALUES ('nm0000018', 'Kirk', 'Douglas'),
+VALUES ('nm0000019', 'Federico', 'Fellini'),
+VALUES ('nm0000020', 'Henry', 'Fonda')
+INSERT INTO Actor (ActorID, Fname, LName)
+VALUES ('nm0000021', 'Joan', 'Fontaine'),
+VALUES ('nm0000022', 'Clark', 'Gable'),
+VALUES ('nm0000023', 'Judy', 'Garland'),
+VALUES ('nm0000024', 'John', 'Gielgud'),
+VALUES ('nm0000025', 'Jerry', 'Goldsmith'),
+VALUES ('nm0000026', 'Cary', 'Grant'),
+VALUES ('nm0000027', 'Alec', 'Guinness'),
+VALUES ('nm0000028', 'Rita', 'Hayworth'),
+VALUES ('nm0000029', 'Margaux', 'Hemingway'),
+VALUES ('nm0000030', 'Audrey', 'Hepburn'),
+VALUES ('nm0000031', 'Katharine', 'Hepburn'),
+VALUES ('nm0000032', 'Charlton', 'Heston'),
+VALUES ('nm0000033', 'Alfred', 'Hitchcock'),
+VALUES ('nm0000034', 'William', 'Holden'),
+VALUES ('nm0000035', 'James', 'Horner'),
+VALUES ('nm0000036', 'Buster', 'Keaton'),
+VALUES ('nm0000037', 'Gene', 'Kelly'),
+VALUES ('nm0000038', 'Grace', 'Kelly'),
+VALUES ('nm0000039', 'Deborah', 'Kerr'),
+VALUES ('nm0000040', 'Stanley', 'Kubrick'),
+VALUES ('nm0000041', 'Akira', 'Kurosawa')
