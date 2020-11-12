@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 INSERT INTO Media (MediaID, Genre, Year, Title, Copies_in_Stock, Content_Rating)
 VALUES ('b027689179', 'Horror', '1994', 'To Kill a Mockingbird', 5, NULL, ),
 VALUES ('b093749757', 'Teen', '2008', 'The Hunger Games', 6, Null, ),
