@@ -1,0 +1,160 @@
+CREATE TABLE Account (
+    CardNum    CHAR (10)      NOT NULL,
+    Fees       DECIMAL (6, 2),
+    OutDate    DATE           NOT NULL,
+    ReturnDate DATE           NOT NULL,
+    Quantity   INT            NOT NULL,
+    PRIMARY KEY (
+        CardNum
+    )
+);
+CREATE TABLE Actor (
+    ActorID VARCHAR (30) NOT NULL,
+    FName   VARCHAR (30),
+    LName   VARCHAR (30),
+    PRIMARY KEY (
+        ActorID
+    )
+);
+CREATE TABLE Album (
+    MediaID  VARCHAR (30) NOT NULL,
+    ArtistID CHAR (10)    NOT NULL,
+    Discs    INT,
+    PRIMARY KEY (
+        MediaID
+    ),
+    FOREIGN KEY (
+        MediaID
+    )
+    REFERENCES Media (MediaID),
+    FOREIGN KEY (
+        ArtistID
+    )
+    REFERENCES Artist (ArtistID) 
+);
+CREATE TABLE Artist (
+    ArtistID CHAR (10)    NOT NULL,
+    Fname    VARCHAR (15),
+    Lname    VARCHAR (15) NOT NULL,
+    GENRE    VARCHAR (10),
+    PRIMARY KEY (
+        ArtistID
+    )
+);
+CREATE TABLE Author (
+    AuthorID CHAR (10)    NOT NULL,
+    Fname    VARCHAR (15),
+    Lname    VARCHAR (15),
+    PRIMARY KEY (
+        AuthorID
+    )
+);
+CREATE TABLE Book (
+    MediaID           VARCHAR (30) NOT NULL,
+    Chapters_Sections INT,
+    Type              VARCHAR (15),
+    AuthorID          CHAR (10),
+    PRIMARY KEY (
+        MediaID
+    ),
+    FOREIGN KEY (
+        MediaID
+    )
+    REFERENCES Media (MediaID),
+    FOREIGN KEY (
+        AuthorID
+    )
+    REFERENCES Author (AuthorID) 
+);
+CREATE TABLE CheckOutItem (
+    MediaID    CHAR (10) PRIMARY KEY
+                         REFERENCES Media (MediaID) 
+                         NOT NULL,
+    CardNum    CHAR (10) REFERENCES Account (CardNum) 
+                         NOT NULL,
+    Type       INT       NOT NULL,
+    OutDate    DATE      REFERENCES Media (MediaID) 
+                         NOT NULL,
+    ReturnDate DATE      NOT NULL,
+    Quantity   INT       NOT NULL
+);
+CREATE TABLE Director (
+    DirectorID VARCHAR (30) NOT NULL,
+    FName      VARCHAR (30),
+    LName      VARCHAR (30),
+    PRIMARY KEY (
+        DirectorID
+    )
+);
+CREATE TABLE Employees (
+    CardNum     CHAR (10) REFERENCES Account (CardNum) 
+                          NOT NULL,
+    EmployeesID CHAR (10) PRIMARY KEY
+                          NOT NULL,
+    Salary      INT       NOT NULL
+);
+CREATE TABLE Media (
+    MediaID          CHAR (10)    PRIMARY KEY
+                                  NOT NULL,
+    Genre            VARCHAR (20),
+    Year             CHAR (4),
+    Title            VARCHAR (50),
+    Copies_In_Stock  INT,
+    Content_Rating   VARCHAR (10),
+    Checked_Out_Date DATE,
+    Return_Date      DATE
+);
+CREATE TABLE MovieActor (
+    MediaID    VARCHAR (30) NOT NULL,
+    DirectorID VARCHAR (30) NOT NULL,
+    ActorID    VARCHAR (30) NOT NULL,
+    PRIMARY KEY (
+        MediaID
+    ),
+    FOREIGN KEY (
+        MediaID
+    )
+    REFERENCES Media (MediaID) 
+);
+CREATE TABLE Movies (
+    MediaID      VARCHAR (30) NOT NULL,
+    Aspect_Ratio VARCHAR (15),
+    PRIMARY KEY (
+        MediaID
+    ),
+    FOREIGN KEY (
+        MediaID
+    )
+    REFERENCES Media (MediaID) 
+);
+CREATE TABLE Person (
+    CardNum CHAR (10)    PRIMARY KEY
+                         REFERENCES Account (CardNum) 
+                         NOT NULL,
+    Fname   VARCHAR (15),
+    Lname   VARCHAR (15),
+    State   VARCHAR (30),
+    City    VARCHAR (30),
+    Street  VARCHAR (30),
+    Email   VARCHAR (40) 
+);
+CREATE TABLE Publisher (
+    PublisherID CHAR (10)    NOT NULL,
+    PName       VARCHAR (30),
+    Country     CHAR (3),
+    State       VARCHAR (30),
+    City        VARCHAR (30),
+    Street      VARCHAR (30),
+    PRIMARY KEY (
+        PublisherID
+    )
+);
+CREATE TABLE Track (
+    TrackID CHAR (10)    NOT NULL,
+    Title   VARCHAR (15) NOT NULL,
+    Length  TIME         NOT NULL,
+    GENRE   VARCHAR (10),
+    PRIMARY KEY (
+        TrackID
+    )
+);
