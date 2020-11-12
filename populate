@@ -1,12 +1,12 @@
 
 INSERT INTO Media (MediaID, Genre, Year, Title, Copies_in_Stock, Content_Rating)
-VALUES ('b027689179', 'Horror', '1994', 'To Kill a Mockingbird', 5, NULL, ),
-VALUES ('b093749757', 'Teen', '2008', 'The Hunger Games', 6, Null, ),
-VALUES ('b029453860', '7'),
-VALUES ('b058335061', '10'),
-VALUES ('b059257381', '6'),
-VALUES ('b065148571', '4'),
-VALUES ('b083832035', '8'),
+VALUES ('b027689179', 'Horror', '1994', 'To Kill a Mockingbird', 5, NULL),
+VALUES ('b093749757', 'Teen', '2008', 'The Hunger Games', 6, Null),
+VALUES ('b029453860', 'Fiction', '2013', '1984', 11, NULL),
+VALUES ('b058335061', 'Classics', '2002', 'East of Eden', 34, NULL),
+VALUES ('b059257381', 'Fantasy', '2003', 'Harry Potter and the Sorcerer's Stone', 61, NULL),
+VALUES ('b065148571', 'Classics', '1996', 'Animal Farm', 12, NULL),
+VALUES ('b083832035', 'Fiction', '2004', 'The Kite Runner'),
 VALUES ('b073482355', '1'),
 VALUES ('b03653107', '6'),
 VALUES ('b01310869', '9'),
@@ -43,6 +43,7 @@ INSERT INTO Account (CardNum, Fees, Quantity) VALUES
  ('cn0000018’, 3.6, 3),
  ('cn0000019', 5.52, 0),
  ('cn0000020’, 757,231,678.06, 842);
+
 INSERT INTO Person (CardNum, Fname, Lname, State, City, Street, Email) VALUES
  ('cn0000001', 'James', 'Butt', 'LA', 'New Orleans', '6649 N Blue Gum St', 'jbutt@gmail.com'),
  ('cn0000002', 'Josephine', 'Darakjy', 'MI', 'Brighton', '4 B Blue Ridge Blvd', 'josephine_darakjy@darakjy.org'),
@@ -67,7 +68,9 @@ INSERT INTO Person (CardNum, Fname, Lname, State, City, Street, Email) VALUES
 
 
 INSERT INTO Book (MediaID, Chapters_Sections) VALUES
+
 INSERT INTO Author (AuthorID, Fname, LName) VALUES
+
 INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street)
  ('pb0000001', 'Books Publishing, Inc', 'USA', 'Florida', 'Tampa', '1814  Saints Alley'),
  ('pb0000002', 'I love books, LLC', 'USA', 'New York', 'PLAQUEMINE', '466  Goodwin Avenue'),
@@ -82,7 +85,9 @@ INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street)
 
 
 INSERT INTO Track (TrackID, AlbumID, ArtistID, Title, Length, Genre) VALUES
+
 INSERT INTO Album (MediaID, Discs) VALUES
+
 INSERT INTO Artist (ArtistID, Fname, LName, Genre) VALUES
  (‘ar0000001’, NULL, 'Accept', 'Rock'),
  (‘ar0000002’, NULL, 'Aerosmith', 'Rock'),
@@ -104,6 +109,7 @@ INSERT INTO Artist (ArtistID, Fname, LName, Genre) VALUES
  ('ar0000018’, NULL, 'Foo Fighters', 'Rock'),
  ('ar0000019, NULL, 'Frank Zappa & Captain Beefheart', 'Rock'),
  ('ar0000020', 'Gilberto', 'Gil', 'Soundtrack');
+
 INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street) VALUES
  ('pb0000011', 'Music or Movies Publishing, Inc', 'USA', 'Virginia', 'Fairfax', '1360  Daffodil Lane'),
  ('pb0000012', 'Music XOR Movies Publishing, Inc', 'USA', 'California', 'San Diego', '946  Ocello Street'),
@@ -118,6 +124,7 @@ INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street) VALUES
 
 
 INSERT INTO Movies (MediaID, Aspect_Ratio) VALUES
+
 INSERT INTO Director (DirectorID, FName, LName) VALUES
  ('nm0000001', 'Fred', 'Astaire'),
  ('nm0000002', 'Lauren', 'Bacall'),
@@ -139,6 +146,7 @@ INSERT INTO Director (DirectorID, FName, LName) VALUES
  ('nm0000018', 'Kirk', 'Douglas'),
  ('nm0000019', 'Federico', 'Fellini'),
  ('nm0000020', 'Henry', 'Fonda')
+
 INSERT INTO Actor (ActorID, Fname, LName) VALUES
  ('nm0000021', 'Joan', 'Fontaine'),
  ('nm0000022', 'Clark', 'Gable'),
@@ -161,4 +169,3 @@ INSERT INTO Actor (ActorID, Fname, LName) VALUES
  ('nm0000039', 'Deborah', 'Kerr'),
  ('nm0000040', 'Stanley', 'Kubrick'),
  ('nm0000041', 'Akira', 'Kurosawa')
-
