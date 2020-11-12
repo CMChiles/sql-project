@@ -99,7 +99,7 @@ INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street) VALUES
  ('pb0000012', 'Music XOR Movies Publishing, Inc', 'USA', 'California', 'San Diego', '946  Ocello Street'),
  ('pb0000013', 'Music not movies Publishing, Inc', 'USA', 'Florida', 'Middletown', '1153  Copperhead Road),
  ('pb0000014', 'Whatever dude publish house', 'USA', 'Texas', 'Tampa', '4998  Bird Spring Lane'),
- ('pb0000015', 'I've given up', 'USA', 'Connecticut', 'CASCILLA', '3100  Pin Oak Drive'),
+ ('pb0000015', 'I''ve given up', 'USA', 'Connecticut', 'CASCILLA', '3100  Pin Oak Drive'),
  ('pb0000016', 'Who can say no', 'USA', 'Mississippi', 'Middletown', '4551  Badger Pond Lane'),
  ('pb0000017', 'Time for movies', 'USA', 'Connecticut', 'Tampa', '3137  Yorkie Lane'),
  ('pb0000018', 'Self Publish', 'USA', 'Maryland', 'CASCILLA', '4297  White River Way'),
