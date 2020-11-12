@@ -7,10 +7,10 @@ INSERT INTO CheckedOutItem (MediaID, Type, OutDate, ReturnDate, Quantity)
 //############################################################################################################################
 //############################################################################################################################
 INSERT INTO Account (CardNum, Fees, Quantity)
-VALUES ('cn0000001, '$8.89', '4'),
+VALUES ('cn0000001', '$8.89', '4'),
 VALUES ('cn0000002’, '$3.21', '1'),
 VALUES ('cn0000003’, '$17.04', '4'),
-VALUES ('cn0000004, '$2.93', '5'),
+VALUES ('cn0000004', '$2.93', '5'),
 VALUES ('cn0000005’, '$19.14', '3'),
 VALUES ('cn0000006’, '$9.54', '5'),
 VALUES ('cn0000007’, '$4.77', '1'),
@@ -25,7 +25,7 @@ VALUES ('cn0000015’, '$18.69', '0'),
 VALUES ('cn0000016’, '$9.83', '3'),
 VALUES ('cn0000017’, '$19.22', '1'),
 VALUES ('cn0000018’, '$3.6', '3'),
-VALUES ('cn0000019, '$5.52', '0'),
+VALUES ('cn0000019', '$5.52', '0'),
 VALUES ('cn0000020’, '$757,231,678.06', '842')
 INSERT INTO Person (CardNum, Fname, Lname, State, City, Street, Email)
 VALUES ('cn0000001', 'James', 'Butt', 'LA', 'New Orleans', '6649 N Blue Gum St', 'jbutt@gmail.com'),
@@ -77,25 +77,25 @@ VALUES ('0000000010', 'Music and Movies Publishing, Inc', 'USA', 'Nevada', 'LAS 
 INSERT INTO Track (TrackID, AlbumID, ArtistID, Title, Length, Genre)
 INSERT INTO Album (MediaID, Discs)
 INSERT INTO Artist (ArtistID, Fname, LName, Genre)
-VALUES (‘ar0000001’, 'NULL', 'Accept', 'Rock'),
-VALUES (‘ar0000002’, 'NULL', 'Aerosmith', 'Rock'),
+VALUES (‘ar0000001’, NULL, 'Accept', 'Rock'),
+VALUES (‘ar0000002’, NULL, 'Aerosmith', 'Rock'),
 VALUES (‘ar0000003’, 'Alanis’, ‘Morissette', 'Rock'),
-VALUES (‘ar0000004’, 'NULL', 'Alice In Chains', 'Rock'),
+VALUES (‘ar0000004’, NULL, 'Alice In Chains', 'Rock'),
 VALUES (‘ar0000005’, 'Amy’, ‘Winehouse', 'R&B/Soul'),
 VALUES (‘ar0000006’, 'Antônio’, ‘Jobim', 'Jazz'),
-VALUES (‘ar0000007’, 'NULL', 'Apocalyptica', 'Metal'),
-VALUES ('ar0000008’, 'NULL', ’Nirvana, 'Rock'),
-VALUES ('ar0000009’, 'NULL', 'Audioslave', 'Alternative & Punk'),
-VALUES ('ar0000010, 'NULL', 'Black Label Society', 'Metal'),
+VALUES (‘ar0000007’, NULL, 'Apocalyptica', 'Metal'),
+VALUES ('ar0000008’, NULL, ’Nirvana, 'Rock'),
+VALUES ('ar0000009’, NULL, 'Audioslave', 'Alternative & Punk'),
+VALUES ('ar0000010, NULL, 'Black Label Society', 'Metal'),
 VALUES ('ar0000011’, 'Chico', 'Buarque', 'Latin'),
-VALUES ('ar0000012’, 'NULL', 'Chico Science & Nação Zumbi', 'Latin'),
+VALUES ('ar0000012’, NULL, 'Chico Science & Nação Zumbi', 'Latin'),
 VALUES ('ar0000013’, 'Cláudio', 'Zoli', 'Latin'),
-VALUES ('ar0000014’, 'NULL', 'Deep Purple', 'Rock'),
-VALUES ('ar0000015’, 'NULL', 'Def Leppard', 'Rock'),
+VALUES ('ar0000014’, NULL, 'Deep Purple', 'Rock'),
+VALUES ('ar0000015’, NULL, 'Def Leppard', 'Rock'),
 VALUES ('ar0000016’, 'Ed', 'Motta', 'Latin'),
 VALUES ('ar0000017’, 'Eric', 'Clapton', 'Blues'),
-VALUES ('ar0000018’, 'NULL', 'Foo Fighters', 'Rock'),
-VALUES ('ar0000019, 'NULL', 'Frank Zappa & Captain Beefheart', 'Rock'),
+VALUES ('ar0000018’, NULL, 'Foo Fighters', 'Rock'),
+VALUES ('ar0000019, NULL, 'Frank Zappa & Captain Beefheart', 'Rock'),
 VALUES ('ar0000020', 'Gilberto', 'Gil', 'Soundtrack')
 INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street)
 VALUES ('0000000011', 'Music or Movies Publishing, Inc', 'USA', 'Virginia', 'Fairfax', '1360  Daffodil Lane'),
