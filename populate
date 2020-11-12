@@ -22,102 +22,6 @@ VALUES ('b028965817', '9'),
 VALUES ('b062251236', '4'),
 INSERT INTO CheckedOutItem (MediaID, Type, OutDate, ReturnDate)
 
-
-
-
-//############################################################################################################################
-//############################################################################################################################
-INSERT INTO Account (CardNum, Fees, Quantity)
-VALUES ('cn0000001', '$8.89', '4'),
-VALUES ('cn0000002’, '$3.21', '1'),
-VALUES ('cn0000003’, '$17.04', '4'),
-VALUES ('cn0000004', '$2.93', '5'),
-VALUES ('cn0000005’, '$19.14', '3'),
-VALUES ('cn0000006’, '$9.54', '5'),
-VALUES ('cn0000007’, '$4.77', '1'),
-VALUES ('cn0000008’, '$14.03', '2'),
-VALUES ('cn0000009’, '$15.11', '2'),
-VALUES ('cn0000010’, '$16.89', '4'),
-VALUES ('cn0000011', '$18.34',  '3'),
-VALUES ('cn0000012’, '$7.57', '2'),
-VALUES ('cn0000013’, '$18.96', '5'),
-VALUES ('cn0000014’, '$2.92', '1'),
-VALUES ('cn0000015’, '$18.69', '0'),
-VALUES ('cn0000016’, '$9.83', '3'),
-VALUES ('cn0000017’, '$19.22', '1'),
-VALUES ('cn0000018’, '$3.6', '3'),
-VALUES ('cn0000019', '$5.52', '0'),
-VALUES ('cn0000020’, '$757,231,678.06', '842')
-INSERT INTO Person (CardNum, Fname, Lname, State, City, Street, Email)
-VALUES ('cn0000001', 'James', 'Butt', 'LA', 'New Orleans', '6649 N Blue Gum St', 'jbutt@gmail.com'),
-VALUES ('cn0000002', 'Josephine', 'Darakjy', 'MI', 'Brighton', '4 B Blue Ridge Blvd', 'josephine_darakjy@darakjy.org'),
-VALUES ('cn0000003', 'Art', 'Venere', 'NJ', 'Bridgeport', '8 W Cerritos Ave #54', 'art@venere.org'),
-VALUES ('cn0000004', 'Lenna', 'Paprocki', 'AK', 'Anchorage', '639 Main St', 'lpaprocki@hotmail.com'),
-VALUES ('cn0000005', 'Donette', 'Foller', 'OH', 'Hamilton', '34 Center St', 'donette.foller@cox.net'),
-VALUES ('cn0000006', 'Simona', 'Morasca', 'OH', 'Ashland', '3 Mcauley Dr', 'simona@morasca.com'),
-VALUES ('cn0000007', 'Mitsue', 'Tollner', 'IL', 'Chicago', '7 Eads St', 'mitsue_tollner@yahoo.com'),
-VALUES ('cn0000008', 'Leota', 'Dilliard', 'CA', 'San Jose', '7 W Jackson Blvd', 'leota@hotmail.com'),
-VALUES ('cn0000009', 'Sage', 'Wieser', 'SD', 'Sioux Falls', '5 Boston Ave #88', 'sage_wieser@cox.net'),
-VALUES ('cn0000010', 'Kris', 'Marrier', 'MD', 'Baltimore', '228 Runamuck Pl #2808', 'kris@gmail.com'),
-VALUES ('cn0000011', 'Minna', 'Amigon', 'PA', 'Kulpsville', '2371 Jerrold Ave', 'minna_amigon@yahoo.com'),
-VALUES ('cn0000012', 'Abel', 'Maclead', 'NY', 'Middle Island', '37275 St  Rt 17m M', 'amaclead@gmail.com'),
-VALUES ('cn0000013', 'Kiley', 'Caldarera', 'CA', 'Los Angeles', '25 E 75th St #69', 'kiley.caldarera@aol.com'),
-VALUES ('cn0000014', 'Graciela', 'Ruta', 'OH', 'Chagrin Falls', '98 Connecticut Ave Nw', 'gruta@cox.net'),
-VALUES ('cn0000015', 'Cammy', 'Albares', 'TX', 'Laredo', '56 E Morehead St', 'calbares@gmail.com'),
-VALUES ('cn0000016', 'Mattie', 'Poquette', 'AZ', 'Phoenix', '73 State Road 434 E', 'mattie@aol.com'),
-VALUES ('cn0000017', 'Meaghan', 'Garufi', 'TN', 'Mc Minnville', '69734 E Carrillo St', 'meaghan@hotmail.com'),
-VALUES ('cn0000018', 'Gladys', 'Rim', 'WI', 'Milwaukee', '322 New Horizon Blvd', 'gladys.rim@rim.org'),
-VALUES ('cn0000019', 'Yuki', 'Whobrey', 'MI', 'Taylor', '1 State Route 27', 'yuki_whobrey@aol.com')
-VALUES ('cn0000020', 'Leon', 'Madrid', 'OH', 'Columbus', '154 N Oval Mall', 'madrid.1@osu.edu')
-
-
-
-
-
-//############################################################################################################################
-//############################################################################################################################
-INSERT INTO Book (MediaID, Chapters_Sections)
-VALUES ('b027689179', '4'),
-VALUES ('b093749757', '9'),
-VALUES ('b029453860', '7'),
-VALUES ('b058335061', '10'),
-VALUES ('b059257381', '6'),
-VALUES ('b065148571', '4'),
-VALUES ('b083832035', '8'),
-VALUES ('b073482355', '1'),
-VALUES ('b03653107', '6'),
-VALUES ('b01310869', '9'),
-VALUES ('b079835238', '7'),
-VALUES ('b020928429', '8'),
-VALUES ('b077885574', '6'),
-VALUES ('b01628973', '1'),
-VALUES ('b054300975', '1'),
-VALUES ('b034879836', '7'),
-VALUES ('b039188650', '9'),
-VALUES ('b047942122', '6'),
-VALUES ('b028965817', '9'),
-VALUES ('b062251236', '4'),
-
-INSERT INTO Author (AuthorID, Fname, LName)
-INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street)
-VALUES ('0000000001', 'Books Publishing, Inc', 'USA', 'Florida', 'Tampa', '1814  Saints Alley'),
-VALUES ('0000000002', 'I love books, LLC', 'USA', 'New York', 'PLAQUEMINE', '466  Goodwin Avenue'),
-VALUES ('0000000003', 'ITs a ME0BOOKHOUSE, llc', 'USA', 'New York', 'New York', '130  Lady Bug Drive'),
-VALUES ('0000000004', 'I am the books', 'USA', 'Texas', 'Dallas', '3889  Liberty Street'),
-VALUES ('0000000005', 'Music for the Masses, Inc', 'USA', 'Maine', 'Westbrook', '637  Bloomfield Way'),
-VALUES ('0000000006', 'Do you love music, llc', 'USA', 'Kentucky', 'OLIVE HILL', '3516  Wright Court'),
-VALUES ('0000000007', 'How does one name more', 'USA', 'Indiana', 'Fort Wayne', '3516  Wright Court'),
-VALUES ('0000000008', 'Music Publishing, Inc', 'USA', 'Ohio', 'KALIDA', '4481  Carolina Avenue'),
-VALUES ('0000000009', 'Movies Publishing, Inc', 'USA', 'Louisiana', 'Baton Rouge', '3282  Washburn Street'),
-VALUES ('0000000010', 'Music and Movies Publishing, Inc', 'USA', 'Nevada', 'LAS VEGAS', '4975  Retreat Avenue'),
-=======
-INSERT INTO Media (MediaID, Genre, Year, Title, Copies_in_Stock, Content_Rating, Checked_Out_Date) VALUES
-INSERT INTO CheckedOutItem (MediaID, Type, OutDate, ReturnDate, Quantity) VALUES
-
-
-
-
-
 INSERT INTO Account (CardNum, Fees, Quantity) VALUES
  ('cn0000001', 8.89, 4),
  ('cn0000002’, 3.21, 1),
@@ -162,10 +66,6 @@ INSERT INTO Person (CardNum, Fname, Lname, State, City, Street, Email) VALUES
  ('cn0000020', 'Leon', 'Madrid', 'OH', 'Columbus', '154 N Oval Mall', 'madrid.1@osu.edu');
 
 
-
-
-
-
 INSERT INTO Book (MediaID, Chapters_Sections) VALUES
 INSERT INTO Author (AuthorID, Fname, LName) VALUES
 INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street)
@@ -179,98 +79,7 @@ INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street)
  ('pb0000008', 'Music Publishing, Inc', 'USA', 'Ohio', 'KALIDA', '4481  Carolina Avenue'),
  ('pb0000009', 'Movies Publishing, Inc', 'USA', 'Louisiana', 'Baton Rouge', '3282  Washburn Street'),
  ('pb0000010', 'Music and Movies Publishing, Inc', 'USA', 'Nevada', 'LAS VEGAS', '4975  Retreat Avenue');
->>>>>>> 8c2597fe0944e1da599879da1c078978b5235b20
 
-
-
-
-<<<<<<< HEAD
-//############################################################################################################################
-//############################################################################################################################
-INSERT INTO Track (TrackID, AlbumID, ArtistID, Title, Length, Genre)
-INSERT INTO Album (MediaID, Discs)
-INSERT INTO Artist (ArtistID, Fname, LName, Genre)
-VALUES (‘ar0000001’, NULL, 'Accept', 'Rock'),
-VALUES (‘ar0000002’, NULL, 'Aerosmith', 'Rock'),
-VALUES (‘ar0000003’, 'Alanis’, ‘Morissette', 'Rock'),
-VALUES (‘ar0000004’, NULL, 'Alice In Chains', 'Rock'),
-VALUES (‘ar0000005’, 'Amy’, ‘Winehouse', 'R&B/Soul'),
-VALUES (‘ar0000006’, 'Antônio’, ‘Jobim', 'Jazz'),
-VALUES (‘ar0000007’, NULL, 'Apocalyptica', 'Metal'),
-VALUES ('ar0000008’, NULL, ’Nirvana, 'Rock'),
-VALUES ('ar0000009’, NULL, 'Audioslave', 'Alternative & Punk'),
-VALUES ('ar0000010, NULL, 'Black Label Society', 'Metal'),
-VALUES ('ar0000011’, 'Chico', 'Buarque', 'Latin'),
-VALUES ('ar0000012’, NULL, 'Chico Science & Nação Zumbi', 'Latin'),
-VALUES ('ar0000013’, 'Cláudio', 'Zoli', 'Latin'),
-VALUES ('ar0000014’, NULL, 'Deep Purple', 'Rock'),
-VALUES ('ar0000015’, NULL, 'Def Leppard', 'Rock'),
-VALUES ('ar0000016’, 'Ed', 'Motta', 'Latin'),
-VALUES ('ar0000017’, 'Eric', 'Clapton', 'Blues'),
-VALUES ('ar0000018’, NULL, 'Foo Fighters', 'Rock'),
-VALUES ('ar0000019, NULL, 'Frank Zappa & Captain Beefheart', 'Rock'),
-VALUES ('ar0000020', 'Gilberto', 'Gil', 'Soundtrack')
-INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street)
-VALUES ('0000000011', 'Music or Movies Publishing, Inc', 'USA', 'Virginia', 'Fairfax', '1360  Daffodil Lane'),
-VALUES ('0000000012', 'Music XOR Movies Publishing, Inc', 'USA', 'California', 'San Diego', '946  Ocello Street'),
-VALUES ('0000000013', 'Music not movies Publishing, Inc', 'USA', 'Florida', 'Middletown', '1153  Copperhead Road),
-VALUES ('0000000014', 'Whatever dude publish house', 'USA', 'Texas', 'Tampa', '4998  Bird Spring Lane'),
-VALUES ('0000000015', 'I've given up', 'USA', 'Connecticut', 'CASCILLA', '3100  Pin Oak Drive'),
-VALUES ('0000000016', 'Who can say no', 'USA', 'Mississippi', 'Middletown', '4551  Badger Pond Lane'),
-VALUES ('0000000017', 'Time for movies', 'USA', 'Connecticut', 'Tampa', '3137  Yorkie Lane'),
-VALUES ('0000000018', 'Self Publish', 'USA', 'Maryland', 'CASCILLA', '4297  White River Way'),
-VALUES ('0000000019', 'Self Publish', 'USA', 'Florida', 'Middletown', '2533  Charack Road'),
-VALUES ('0000000020', 'Self Publish', 'USA', 'Connecticut', 'Elk River', '205  Freshour Circle')
-
-
-
-//############################################################################################################################
-//############################################################################################################################
-INSERT INTO Movies (MediaID, Aspect_Ratio)
-INSERT INTO Director (DirectorID, FName, LName)
-VALUES ('nm0000001', 'Fred', 'Astaire'),
-VALUES ('nm0000002', 'Lauren', 'Bacall'),
-VALUES ('nm0000003', 'Brigitte', 'Bardot'),
-VALUES ('nm0000004', 'John', 'Belushi'),
-VALUES ('nm0000005', 'Ingmar', 'Bergman'),
-VALUES ('nm0000006', 'Ingrid', 'Bergman'),
-VALUES ('nm0000007', 'Humphrey', 'Bogart'),
-VALUES ('nm0000008', 'Marlon', 'Brando'),
-VALUES ('nm0000009', 'Richard', 'Burton'),
-VALUES ('nm0000010', 'James', 'Cagney'),
-VALUES ('nm0000011', 'Gary', 'Cooper'),
-VALUES ('nm0000012', 'Bette', 'Davis'),
-VALUES ('nm0000013', 'Doris', 'Day'),
-VALUES ('nm0000014', 'Olivia', 'de'),
-VALUES ('nm0000015', 'James', 'Dean'),
-VALUES ('nm0000016', 'Georges', 'Delerue'),
-VALUES ('nm0000017', 'Marlene', 'Dietrich'),
-VALUES ('nm0000018', 'Kirk', 'Douglas'),
-VALUES ('nm0000019', 'Federico', 'Fellini'),
-VALUES ('nm0000020', 'Henry', 'Fonda')
-INSERT INTO Actor (ActorID, Fname, LName)
-VALUES ('nm0000021', 'Joan', 'Fontaine'),
-VALUES ('nm0000022', 'Clark', 'Gable'),
-VALUES ('nm0000023', 'Judy', 'Garland'),
-VALUES ('nm0000024', 'John', 'Gielgud'),
-VALUES ('nm0000025', 'Jerry', 'Goldsmith'),
-VALUES ('nm0000026', 'Cary', 'Grant'),
-VALUES ('nm0000027', 'Alec', 'Guinness'),
-VALUES ('nm0000028', 'Rita', 'Hayworth'),
-VALUES ('nm0000029', 'Margaux', 'Hemingway'),
-VALUES ('nm0000030', 'Audrey', 'Hepburn'),
-VALUES ('nm0000031', 'Katharine', 'Hepburn'),
-VALUES ('nm0000032', 'Charlton', 'Heston'),
-VALUES ('nm0000033', 'Alfred', 'Hitchcock'),
-VALUES ('nm0000034', 'William', 'Holden'),
-VALUES ('nm0000035', 'James', 'Horner'),
-VALUES ('nm0000036', 'Buster', 'Keaton'),
-VALUES ('nm0000037', 'Gene', 'Kelly'),
-VALUES ('nm0000038', 'Grace', 'Kelly'),
-VALUES ('nm0000039', 'Deborah', 'Kerr'),
-VALUES ('nm0000040', 'Stanley', 'Kubrick'),
-VALUES ('nm0000041', 'Akira', 'Kurosawa')
-=======
 
 INSERT INTO Track (TrackID, AlbumID, ArtistID, Title, Length, Genre) VALUES
 INSERT INTO Album (MediaID, Discs) VALUES
@@ -306,8 +115,6 @@ INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street) VALUES
  ('pb0000018', 'Self Publish', 'USA', 'Maryland', 'CASCILLA', '4297  White River Way'),
  ('pb0000019', 'Self Publish', 'USA', 'Florida', 'Middletown', '2533  Charack Road'),
  ('pb0000020', 'Self Publish', 'USA', 'Connecticut', 'Elk River', '205  Freshour Circle');
-
-
 
 
 INSERT INTO Movies (MediaID, Aspect_Ratio) VALUES
@@ -354,4 +161,4 @@ INSERT INTO Actor (ActorID, Fname, LName) VALUES
  ('nm0000039', 'Deborah', 'Kerr'),
  ('nm0000040', 'Stanley', 'Kubrick'),
  ('nm0000041', 'Akira', 'Kurosawa')
->>>>>>> 8c2597fe0944e1da599879da1c078978b5235b20
+
