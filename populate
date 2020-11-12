@@ -39,6 +39,26 @@ INSERT INTO Media (MediaID, Genre, Year, Title, Copies_in_Stock, Content_Rating)
  ('a010000018')
  ('a010000019')
  ('a010000020')
+ ('m010000001')
+ ('m010000002')
+ ('m010000003')
+ ('m010000004')
+ ('m010000005')
+ ('m010000006')
+ ('m010000007')
+ ('m010000008')
+ ('m010000009')
+ ('m010000010')
+ ('m010000011')
+ ('m010000012')
+ ('m010000013')
+ ('m010000014')
+ ('m010000015')
+ ('m010000016')
+ ('m010000017')
+ ('m010000018')
+ ('m010000019')
+ ('m010000020')
  
 INSERT INTO CheckedOutItem (MediaID, Type, OutDate, ReturnDate);
 
@@ -206,8 +226,28 @@ INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street) VALUES
  ('pb0000020', 'Self Publish', 'USA', 'Connecticut', 'Elk River', '205  Freshour Circle');
 
 
-INSERT INTO Movies (MediaID, Aspect_Ratio);
-
+INSERT INTO Movies (MediaID, Aspect_Ratio) VALUES
+ ('m010000001', '16:9')
+ ('m010000002', '16:9')
+ ('m010000003', '16:9')
+ ('m010000004', '16:9')
+ ('m010000005', '16:9')
+ ('m010000006', '16:9')
+ ('m010000007', '16:9')
+ ('m010000008', '16:9')
+ ('m010000009', '16:9')
+ ('m010000010', '16:9')
+ ('m010000011', '16:9')
+ ('m010000012', '16:9')
+ ('m010000013', '16:9')
+ ('m010000014', '16:9')
+ ('m010000015', '16:9')
+ ('m010000016', '16:9')
+ ('m010000017', '16:9')
+ ('m010000018', '16:9')
+ ('m010000019', '16:9')
+ ('m010000020', '16:9');
+ 
 INSERT INTO Director (DirectorID, FName, LName) VALUES
  ('nm0000001', 'Fred', 'Astaire'),
  ('nm0000002', 'Lauren', 'Bacall'),
