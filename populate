@@ -68,6 +68,26 @@ INSERT INTO Person (CardNum, Fname, Lname, State, City, Street, Email) VALUES
 
 
 INSERT INTO Book (MediaID, Chapters_Sections) VALUES
+VALUES ('b-27689179', '4'),
+VALUES ('b-93749757', '9'),
+VALUES ('b-29453860', '7'),
+VALUES ('b-58335061', '10'),
+VALUES ('b-59257381', '6'),
+VALUES ('b-65148571', '4'),
+VALUES ('b-83832035', '8'),
+VALUES ('b-73482355', '1'),
+VALUES ('b-3653107', '6'),
+VALUES ('b-1310869', '9'),
+VALUES ('b-79835238', '7'),
+VALUES ('b-20928429', '8'),
+VALUES ('b-77885574', '6'),
+VALUES ('b-1628973', '1'),
+VALUES ('b-54300975', '1'),
+VALUES ('b-34879836', '7'),
+VALUES ('b-39188650', '9'),
+VALUES ('b-47942122', '6'),
+VALUES ('b-28965817', '9'),
+VALUES ('b-62251236', '4'),
 
 INSERT INTO Author (AuthorID, Fname, LName) VALUES
 
