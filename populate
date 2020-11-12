@@ -56,11 +56,32 @@ VALUES ('cn0000020', 'Leon', 'Madrid', 'OH', 'Columbus', '154 N Oval Mall', 'mad
 //############################################################################################################################
 //############################################################################################################################
 INSERT INTO Book (MediaID, Chapters_Sections)
+VALUES ('b027689179', '4'),
+VALUES ('b093749757', '9'),
+VALUES ('b029453860', '7'),
+VALUES ('b058335061', '10'),
+VALUES ('b059257381', '6'),
+VALUES ('b065148571', '4'),
+VALUES ('b083832035', '8'),
+VALUES ('b073482355', '1'),
+VALUES ('b03653107', '6'),
+VALUES ('b01310869', '9'),
+VALUES ('b079835238', '7'),
+VALUES ('b020928429', '8'),
+VALUES ('b077885574', '6'),
+VALUES ('b01628973', '1'),
+VALUES ('b054300975', '1'),
+VALUES ('b034879836', '7'),
+VALUES ('b039188650', '9'),
+VALUES ('b047942122', '6'),
+VALUES ('b028965817', '9'),
+VALUES ('b062251236', '4'),
+
 INSERT INTO Author (AuthorID, Fname, LName)
 INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street)
 VALUES ('0000000001', 'Books Publishing, Inc', 'USA', 'Florida', 'Tampa', '1814  Saints Alley'),
 VALUES ('0000000002', 'I love books, LLC', 'USA', 'New York', 'PLAQUEMINE', '466  Goodwin Avenue'),
-VALUES ('0000000003', 'ITs a ME-BOOKHOUSE, llc', 'USA', 'New York', 'New York', '130  Lady Bug Drive'),
+VALUES ('0000000003', 'ITs a ME0BOOKHOUSE, llc', 'USA', 'New York', 'New York', '130  Lady Bug Drive'),
 VALUES ('0000000004', 'I am the books', 'USA', 'Texas', 'Dallas', '3889  Liberty Street'),
 VALUES ('0000000005', 'Music for the Masses, Inc', 'USA', 'Maine', 'Westbrook', '637  Bloomfield Way'),
 VALUES ('0000000006', 'Do you love music, llc', 'USA', 'Kentucky', 'OLIVE HILL', '3516  Wright Court'),
