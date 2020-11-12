@@ -4,8 +4,7 @@ INSERT INTO CheckedOutItem (MediaID, Type, OutDate, ReturnDate, Quantity)
 
 
 
-//############################################################################################################################
-//############################################################################################################################
+
 INSERT INTO Account (CardNum, Fees, Quantity)
 VALUES ('cn0000001', 8.89, 4),
 VALUES ('cn0000002’, 3.21, 1),
@@ -53,8 +52,7 @@ VALUES ('cn0000020', 'Leon', 'Madrid', 'OH', 'Columbus', '154 N Oval Mall', 'mad
 
 
 
-//############################################################################################################################
-//############################################################################################################################
+
 INSERT INTO Book (MediaID, Chapters_Sections)
 INSERT INTO Author (AuthorID, Fname, LName)
 INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street)
@@ -72,8 +70,7 @@ VALUES ('pb0000010', 'Music and Movies Publishing, Inc', 'USA', 'Nevada', 'LAS V
 
 
 
-//############################################################################################################################
-//############################################################################################################################
+
 INSERT INTO Track (TrackID, AlbumID, ArtistID, Title, Length, Genre)
 INSERT INTO Album (MediaID, Discs)
 INSERT INTO Artist (ArtistID, Fname, LName, Genre)
@@ -111,8 +108,7 @@ VALUES ('pb0000020', 'Self Publish', 'USA', 'Connecticut', 'Elk River', '205  Fr
 
 
 
-//############################################################################################################################
-//############################################################################################################################
+
 INSERT INTO Movies (MediaID, Aspect_Ratio)
 INSERT INTO Director (DirectorID, FName, LName)
 VALUES ('nm0000001', 'Fred', 'Astaire'),
