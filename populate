@@ -19,48 +19,69 @@ INSERT INTO Media (MediaID, Genre, Year, Title, Copies_in_Stock, Content_Rating)
  ('b047942122', 'Fantasy', '2004', 'Harry Potter and the Order of the Phoenix', 53, NULL),
  ('b028965817', 'Fiction', '2006', 'A Tree Grows in Brooklyn', 81, NULL),
  ('b062251236', 'Historical Fiction', '2002', 'The Pillars of the Earth', 42, NULL)
- ('a010000001')
- ('a010000002')
- ('a010000003')
- ('a010000004')
- ('a010000005')
- ('a010000006')
- ('a010000007')
- ('a010000008')
- ('a010000009')
- ('a010000010')
- ('a010000011')
- ('a010000012')
- ('a010000013')
- ('a010000014')
- ('a010000015')
- ('a010000016')
- ('a010000017')
- ('a010000018')
- ('a010000019')
- ('a010000020')
- ('m010000001')
- ('m010000002')
- ('m010000003')
- ('m010000004')
- ('m010000005')
- ('m010000006')
- ('m010000007')
- ('m010000008')
- ('m010000009')
- ('m010000010')
- ('m010000011')
- ('m010000012')
- ('m010000013')
- ('m010000014')
- ('m010000015')
- ('m010000016')
- ('m010000017')
- ('m010000018')
- ('m010000019')
- ('m010000020')
+('a010000001','Rock','1984','Born In The U.S.A.','14','NULL'),
+('a010000002','Rock','1999','Supernatural','8','NULL'),
+('a010000003','Rock','1991','Metallica','13','NULL'),
+('a010000004','Rock','1977','Bat Out Of Hell','12','NULL'),
+('a010000005','Pop','1991','Saturday Night Fever','6','NULL'),
+('a010000006','Rock','1987','Appetite for Destruction','8','NULL'),
+('a010000007','Reggae','1984','Legend','12','NULL'),
+('a010000008','Pop','1992','Gold: Greatest Hits','3','NULL'),
+('a010000009','Rock','2000','1','5','NULL'),
+('a010000010','Rock','1973','Dark Side of the Moon','1','NULL'),
+('a010000011','Pop','1995','Jagged Little Pill','8','NULL'),
+('a010000012','Pop','2011','21','7','NULL'),
+('a010000013','Rock','1980','Back in Black','5','NULL'),
+('a010000014','Rock','1977','Rumours','6','NULL'),
+('a010000015','Pop','1992','The Bodyguard Soundtrack','8','NULL'),
+('a010000016','Rock','1971','Led Zeppelin IV','8','NULL'),
+('a010000017','Pop','1997','Come on Over','11','NULL'),
+('a010000018','Rock','1976','Hotel California','4','NULL'),
+('a010000019','Rock','1976','Their Greatest Hits 1971-1975','12','NULL'),
+('a010000020','Pop','1982','Thriller','3','NULL'),
+('m010000001','Drama','1994','The Shawshank Redemption','3','R'),
+('m010000002','Drama','1972','The Godfather','4','R'),
+('m010000003','Drama','1941','Citizen Kane','4','PG'),
+('m010000004','Drama','1957','12 Angry Men','10','NULL'),
+('m010000005','Drama','1993','Schindler's List','4','R'),
+('m010000006','Western','1966','Il buono, il brutto, il cattivo','4','R'),
+('m010000007','Sci-Fi','1980','Star Wars: Episode V - The Empire Strikes Back','1','PG'),
+('m010000008','Fantasy','2003','The Lord of the Rings: The Return of the King','6','PG-13'),
+('m010000009','Action','2008','The Dark Knight','1','PG-13'),
+('m010000010','Drama','1974','The Godfather: Part II','4','R'),
+('m010000011','Drama','1994','Pulp Fiction','1','R'),
+('m010000012','Drama','1999','Fight Club','7','R'),
+('m010000013','Horror','1960','Psycho','8','R'),
+('m010000014','Sci-Fi','1968','2001: A Space Odyssey','1','G'),
+('m010000015','Sci-Fi','1927','Metropolis','1','NULL'),
+('m010000016','Sci-Fi','1977','Star Wars','4','PG'),
+('m010000017','Fantasy','2001','The Lord of the Rings: The Fellowship of the Ring','5','PG-13'),
+('m010000018',' Sci-Fi','1991','Terminator 2: Judgment Day','7','R'),
+('m010000019','Sci-Fi','1999','The Matrix','3','R'),
+('m010000020','Action','1981','Raiders of the Lost Ark','3','PG');
+
  
-INSERT INTO CheckedOutItem (MediaID, Type, OutDate, ReturnDate);
+INSERT INTO CheckedOutItem (MediaID, Type, OutDate, ReturnDate) VALUES
+('a010000001','Album','8-14-2018','8-28-2018'),
+('a010000002','Album','8-14-2018','8-28-2018'),
+('a010000003','Album','8-14-2018','8-28-2018'),
+('a010000004','Album','9-16-2018','9-30-2018'),
+('a010000005','Album','9-16-2018','9-30-2018'),
+('a010000006','Album','9-16-2018','9-30-2018'),
+('a010000007','Album','10-3-2018','10-17-2018'),
+('a010000008','Album','10-3-2018','10-17-2018'),
+('a010000009','Album','10-3-2018','10-17-2018'),
+('a010000010','Album','8-14-2018','8-28-2018'),
+('a010000011','Album','8-14-2018','8-28-2018'),
+('a010000012','Album','8-14-2018','8-28-2018'),
+('a010000013','Album','9-16-2018','9-30-2018'),
+('a010000014','Album','9-16-2018','9-30-2018'),
+('a010000015','Album','9-16-2018','9-30-2018'),
+('a010000016','Album','10-3-2018','10-17-2018'),
+('a010000017','Album','10-3-2018','10-17-2018'),
+('a010000018','Album','10-3-2018','10-17-2018'),
+('a010000019','Album','9-14-2018','9-28-2018'),
+('a010000020','Album','9-14-2018','9-28-2018');
 
 INSERT INTO Account (CardNum, Fees, Quantity) VALUES
  ('cn0000001', 8.89, 4),
@@ -130,9 +151,29 @@ INSERT INTO Book (MediaID, Chapters_Sections) VALUES
  ('b062251236', '4');
 
 
-INSERT INTO Author (AuthorID, Fname, LName);
-INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street) VALUES
+INSERT INTO Author (AuthorID, Fname, LName) VALUES
+('au00000001','William','Shakespeare'),
+('au00000002','Agatha','Christie'),
+('au00000003','J.K.','Rowling'),
+('au00000004','Dr.','Sueess'),
+('au00000005','Leo','Tolstoy'),
+('au00000006','R.L.','Stine'),
+('au00000007','Dean','Koontz'),
+('au00000008','Stephen','King'),
+('au00000009','Paulo','Coelho'),
+('au00000010','Robert','Ludlum'),
+('au00000011','James','Patterson'),
+('au00000012','John','Grisham'),
+('au00000013','Roald','Dahl'),
+('au00000014','J.R.R.','Tolkien'),
+('au00000015','C.S.','Lewis'),
+('au00000016','Dan','Brown'),
+('au00000017','EL','James'),
+('au00000018','Stephenie','Meyer'),
+('au00000019','Nicholas','Sparks'),
+('au00000020','Lewis','Carroll');
 
+INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street) VALUES
  ('pb0000001', 'Books Publishing, Inc', 'USA', 'Florida', 'Tampa', '1814  Saints Alley'),
  ('pb0000002', 'I love books, LLC', 'USA', 'New York', 'PLAQUEMINE', '466  Goodwin Avenue'),
  ('pb0000003', 'ITs a ME-BOOKHOUSE, llc', 'USA', 'New York', 'New York', '130  Lady Bug Drive'),
@@ -142,9 +183,17 @@ INSERT INTO Publisher (PublisherID, PName, Country, State, City, Street) VALUES
  ('pb0000007', 'How does one name more', 'USA', 'Indiana', 'Fort Wayne', '3516  Wright Court'),
  ('pb0000008', 'Music Publishing, Inc', 'USA', 'Ohio', 'KALIDA', '4481  Carolina Avenue'),
  ('pb0000009', 'Movies Publishing, Inc', 'USA', 'Louisiana', 'Baton Rouge', '3282  Washburn Street'),
- ('pb0000010', 'Music and Movies Publishing, Inc', 'USA', 'Nevada', 'LAS VEGAS', '4975  Retreat Avenue');
-
-
+ ('pb0000010', 'Music and Movies Publishing, Inc', 'USA', 'Nevada', 'LAS VEGAS', '4975  Retreat Avenue'),
+ ('pb0000011','USA Publishers','USA','New York','New York','5911 Washington Street'),
+('pb0000012','Publishers Publishing','USA','California','San Fransisco','2826 maple Drive'),
+('pb0000013','Publishers Media','USA','Oregon','Portland','1922 Ash Tree Lane'),
+('pb0000014','Giraffe Publishing','USA','California','San Diego','3207 Wallaby Road'),
+('pb0000015','Mike's Publishing','USA','Ohio','Columbus','7302 West 4th Street'),
+('pb0000016','Dave's Publishing','USA','Florida','Miami','7288 North Market Ave'),
+('pb0000017','Purified Publishing','USA','Missouri','St. Louis','9012 2nd Street'),
+('pb0000018','Coffee House Publishing','USA','California','Los Angeles','4298 Franklin Blvd'),
+('pb0000019','In The Woods Publshing','USA','Wasshington','Seatle','1185 Cherry Tree Circle'),
+('pb0000020','Paper House Publishing','USA','Missouri','Kansas City','7458 Sprinkle Street');
 
 INSERT INTO Track (TrackID, AlbumID, ArtistID, Title, Length, Genre) VALUES
  ('tk00000001', 'ab00000001', ‘ar00000001', 'Kung Fu Fighting', 1.65, 'Pop'),
